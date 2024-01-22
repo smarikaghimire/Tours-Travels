@@ -28,7 +28,7 @@ const Checkout = () => {
         // e.preventDefault();
 
         try {
-            const response = await fetch('https://tourstravelsapi.onrender.com/bookings', {
+            const response = await fetch('https://toursandtravels-udew.onrender.com/bookings', {
                 method: 'POST',
                 headers: {
                     'Content-Type': 'application/json',
