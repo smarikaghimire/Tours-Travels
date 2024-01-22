@@ -1,0 +1,28 @@
+/* Home.css */
+
+.home {
+  position: relative;
+}
+
+.video-container {
+  overflow: hidden;
+}
+
+.video-slider {
+  display: flex;
+  transition: transform 0.1s ease; /* Slide transition */
+}
+
+.video-slide {
+  flex: 0 0 100%;
+  transition: opacity 0.2s ease; /* Fade-in transition */
+  opacity: 0;
+  visibility: hidden;
+}
+
+.video-slide.active {
+  opacity: 1;
+  visibility: visible;
+}
+
+/* Home.css */
